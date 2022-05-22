@@ -37,7 +37,7 @@ spec:
   project: production
   source:
     path: crossplane-providers
-    repoURL: https://github.com/vfarcic/crossplane-kubevela-argocd-demo
+    repoURL: https://github.com/jurgob/crossplane-kubevela-argocd-demo
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
@@ -60,7 +60,7 @@ spec:
   project: production
   source:
     path: crossplane-configs
-    repoURL: https://github.com/vfarcic/crossplane-kubevela-argocd-demo
+    repoURL: https://github.com/jurgob/crossplane-kubevela-argocd-demo
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
@@ -83,7 +83,7 @@ spec:
   project: production
   source:
     path: crossplane-compositions
-    repoURL: https://github.com/vfarcic/crossplane-kubevela-argocd-demo
+    repoURL: https://github.com/jurgob/crossplane-kubevela-argocd-demo
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
